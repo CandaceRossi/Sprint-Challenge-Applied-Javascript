@@ -31,21 +31,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
-
+The DOM is the Document Object Model - the representation of the html elements of a webpage. It is the interface that we can interact with and manipulate the page, changing structure, content, and styling. The DOM is a tree structure. Some nodes are properties and others are methods. With 'creation' and 'propogation' we can hold inof about an event type and targe either static or taken back up the tree. 
 2. What is an event?
-
+Every interaction a user has with a site is known as an event: a clikc, moving the mouse, scrolling the page, pressing a key.
 3. What is an event listener?
-
+An event listener is an already created method on Dom elements. They are methods within the event object that set an event on a targeted Dom node which needs manipulation.
 4. Why would we convert a NodeList into an Array?
-
+We would covert a nodelist to an array to access array methods. The limitation of the array-like properties of nodelist methods give us minimal access to manipulate, so we would need to use the array.from method to acces what is outside of the nodelist's abilities. 
 5. What is a component?
-
+Components are re-usable pieces of code that can be used to build elements sharing functionality and styling. Components bring html css and js together in a reusable way. They are the heart of dynamic web application. 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
